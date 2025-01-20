@@ -20,12 +20,79 @@ body{
     width: 100%;
 }
 
+.content ul{
+    padding-left: 60px;
+
+
+}
+
 /* header*/
 .header{
     background-color: #565656;
-                        color: #fff;
+    color: #fff;
+    /*padding: 10px 40px;*/
+    height: 120px;
+}
+
+.header h1{
+    font-weight: 400;
+    line-height: 120px;
+    padding-left: 40px;
+
+}
+
+.nav{
+    background-color: #000;
+    height: 50px;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    }
+
+
+.nav ul{
+    list-style-type: none;
+    line-height: 50px;
+
+}
+
+.nav ul li{
+    display: block;
+    float: left;
+    padding:0 40px;
+}
+.content h1, .content h2{
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+P{
+    margin: 10px 0;
 }
 
 /* content */
+.content{
+    padding: 40px;
+}
 
 /* footer */
+
+.footer{
+    padding: 20px 40px;
+    background-color:  #000;
+}
+
+.footer a{
+color: #fff;
+text-decoration: none;
+line-height: 60px;
+}
+
+.footer a:hover{
+    color: #ededed;
+    text-decoration: underline;
+
+}
+
