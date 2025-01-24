@@ -48,3 +48,30 @@
     
 }
 
+.content {
+    height: 600px; /* Set the height of the content container */
+    font-size: 20px; /* Set the text size */
+    line-height: 2.0; /* Set the line height */
+    padding: 20px; /* Add some padding for better readability */
+    margin-top: 100px; /* Move the content downward */
+    padding-bottom: 120px; /* Add padding to the bottom to avoid overlap with footer */
+}
+
+.content img {
+    width: 300px; /* Set the width of the image */
+    height: 600px; /* Set the height of the image */
+    margin: 100px 100px 100px 100px; /* Add some margin around the image */
+    float: left; /* Place the image to the left side */
+}
+
+
+.footer {
+    padding: 20px; /* Add some padding around the footer */
+    background-color: #565656;
+    color: white;
+    text-align: center;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+}
+
