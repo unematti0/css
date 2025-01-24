@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    height: 480px;
+    width: 100%;
+}
+
+.header img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header img:nth-child(2) {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    border: 10px solid #FFD700; /* Corrected border color */
+    border-radius: 50%; /* Make the border follow the shape of the image */
+    box-sizing: border-box;
+    z-index: 2; /* Ensure the image is above the background */
+}
+
+.header .logo {
+    position: absolute;
+    top: 180px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 100px; /* Thickness */
+}
+
+.header .Slogan {
+    position: absolute;
+    top: 350px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 30px; /* Thickness */
+    font-style: italic; /* Italic text */
+    
+}
+
