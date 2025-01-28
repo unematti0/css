@@ -20,60 +20,60 @@
     transform: translate(-50%, -50%);
     height: 150px;
     width: 150px;
-    border: 10px solid #FFD700; /* Corrected border color */
-    border-radius: 50%; /* Make the border follow the shape of the image */
+    border: 10px solid #FFD700; 
+    border-radius: 50%; 
     box-sizing: border-box;
-    z-index: 2; /* Ensure the image is above the background */
+    z-index: 2; 
 }
 
 .header .logo {
     position: absolute;
-    top: 180px; /* Adjust this value as needed */
+    top: 180px; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: white;
-    font-size: 100px; /* Thickness */
+    font-size: 100px; 
 }
 
 .header .Slogan {
     position: absolute;
-    top: 350px; /* Adjust this value as needed */
+    top: 350px; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: white;
-    font-size: 30px; /* Thickness */
-    font-style: italic; /* Italic text */
+    font-size: 30px; 
+    font-style: italic; 
     
 }
 
 .content {
-    height: 600px; /* Set the height of the content container */
-    font-size: 20px; /* Set the text size */
-    line-height: 2.0; /* Set the line height */
-    padding: 20px; /* Add some padding for better readability */
-    margin-top: 100px; /* Move the content downward */
-    padding-bottom: 120px; /* Add padding to the bottom to avoid overlap with footer */
+    height: 600px; 
+    font-size: 20px; 
+    line-height: 2.0; 
+    padding: 20px; 
+    margin-top: 100px; 
+    padding-bottom: 120px; 
 }
 
 .content img {
-    width: 300px; /* Set the width of the image */
-    height: 600px; /* Set the height of the image */
-    margin: 60px 100px 100px 100px; /* Add some margin around the image */
-    float: left; /* Place the image to the left side */
+    width: 300px; 
+    height: 600px; 
+    margin: 60px 100px 100px 100px; 
+    float: left; 
     
 }
 
 
 .footer {
-    padding: 40px; /* Add some padding around the footer */
+    padding: 40px; 
     background-color: #D5B60A;
     color: white;
     text-align: center;
-    position: relative; /* Ensure the footer is at the bottom of the page */
+    position: relative; 
     width: 100%;
-    margin-top: 100px; /* Add margin to ensure space between content and footer */
+    margin-top: 100px; 
 }
 
 .footer h1 {
